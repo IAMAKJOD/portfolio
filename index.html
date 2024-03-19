@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya Karade</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img id="my-img" src="./assets/images/formal.png" alt="Aditya's photo" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Aditya Karade">Aditya Karade</h1>
+
+          <p class="title">Software Devloper</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:karadeaditya2003@gmail.com" class="contact-link">karadeaditya2003@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919881890193" class="contact-link">+(91) 9881890193</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-04-22">22 April 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pune Maharashtra</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/aditya-karade/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/AdityaKarade17" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li class="social-item">
+            <a href="https://www.hackerrank.com/profile/rupeshpingale201" class="social-link">
+              <ion-icon name="code-outline"></ion-icon>
+            </a>
+          </li> -->
+
+          <a  class="wtsp" href="https://api.whatsapp.com/send?phone=919881890193" class="social-link">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link id="Project">Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Youtube</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            🚀 Hey there! I'm <strong>Aditya Karade</strong>, currently
+            pursuing my Bachelor of Technology in Computer Engineering, and
+            I'm loving every bit of it. With a solid CGPA of 9.2, I'm
+            dedicated to excelling in my studies while diving deep into the
+            world of technology.
+          </p>
+        
+          <p>
+            💻 I've always been <em>fascinated</em> by
+            <strong>problem-solving</strong>, especially when it comes to
+            tackling challenges with technology.
+            <strong>Data structures and algorithms</strong> are my
+            <strong>passion</strong>! I find them
+            <em>incredibly interesting</em>, and I've spent
+            <strong>countless hours</strong> honing my skills in this area. In
+            fact, I've tackled <strong>over 700 questions</strong> on
+            platforms like <em>LeetCode</em> and <em>GeeksforGeeks</em>,
+            constantly pushing myself to <em>learn</em> and <em>improve</em>.
+          </p>
+          <p>
+            🌈 Aside from my academic pursuits, I thrive on challenges and
+            enjoy finding innovative solutions to complex problems. Whether
+            it's debugging code or optimizing algorithms, I'm always up for
+            the challenge.
+          </p>
+
+          <p>
+            🌟 In my free time, you'll often find me immersed in coding
+            projects or exploring new technologies. I'm passionate about
+            continuous learning and growth, and I'm excited about the endless
+            possibilities that the world of computer engineering has to offer
+          </p>
+
+          <p>
+            🚀 I'm eagerly seeking opportunities to apply my skills and
+            knowledge, contributing to meaningful projects and furthering my
+            journey in the field of computer engineering. Let's connect and
+            embark on this exciting journey together!
+          </p>
+        </section>
+        
+        
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web (MERN stack)development</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Problem-Solving</h4>
+                <p class="service-item-text">
+                  Passionate about implementing data structures, algorithms,
+                  and solving coding challenges.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content Creation</h4>
+
+                <p class="service-item-text">
+                  Passionate about crafting captivating content on YouTube.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Real-Life Discoveries</h4>
+
+                <p class="service-item-text">
+                  I enjoy watching informative content that brings real-life incidents to life with engaging visuals.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+
+        </div>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <a href="https://drive.google.com/file/d/1IHhDKxphfAMCWJsoSyDCkwbWgzUSI3Zy/view?usp=sharing" style="color: cadetblue; text-decoration: none;" onmouseover="this.style.color='aliceblue';" onmouseout="this.style.color='cadetblue';">Download Resume</a>
+        <Br>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+        
+            <h3 class="h3">Education</h3>
+          </div>
+        
+          <ol class="timeline-list">
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">MIT Academy of Engineering, Pune</h4>
+        
+              <span>2020 — 2024</span>
+        
+              <p class="timeline-text">
+                Pursued Bachelor of Technology in Computer Engineering with a CGPA of 9.2/10, emphasizing a holistic
+                understanding of computer science and engineering principles.
+              </p>
+        
+            </li>
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">Smt. C.H.M. College of Arts, Science, Commerce - Ulhasnagar</h4>
+        
+              <span>2020</span>
+        
+              <p class="timeline-text">
+                Completed 12th Grade (HSC) in Maharashtra with a percentage of 82.92, focusing on a well-rounded education.
+              </p>
+        
+            </li>
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">Abhinav Dnyan Mandir, Karjat</h4>
+        
+              <span>2018</span>
+        
+              <p class="timeline-text">
+                Successfully completed 10th Grade (SSC) in Maharashtra with a percentage of 92.00, laying the foundation for
+                future academic pursuits.
+              </p>
+        
+            </li>
+        
+          </ol>
+        
+        </section>
+        
+
+       
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+        
+            <h3 class="h3">Experience</h3>
+          </div>
+        
+          <ol class="timeline-list">
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">Celebal Technologies</h4>
+        
+              <span>June 2023 — August 2023</span>
+        
+              <p class="timeline-text">
+                successfully developed a comprehensive reporting system for E-commerce website designed to extract valuable insights
+                into the business operations.
+                This reporting system empowers the platform by providing in-depth analytics on various aspects, including product
+                performance, customer behavior, and order processing.
+              </p>
+        
+            </li>
+        
+          </ol>
+        
+        </section>
+        
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+        
+          <ul class="skills-list content-card">
+        
+            <li class="skills-item">
+        
+              <div class="title-wrapper">
+                <h5 class="h5">Languages</h5>
+                <data value="C++, Python, HTML, CSS, JavaScript">C++, Python, HTML, CSS, JavaScript</data>
+              </div>
+        
+            </li>
+        
+            <li class="skills-item">
+        
+              <div class="title-wrapper">
+                <h5 class="h5">Frameworks</h5>
+                <data value="React.js, Node.js, Express.js">React.js, Node.js, Express.js</data>
+              </div>
+        
+            </li>
+        
+            <li class="skills-item">
+        
+              <div class="title-wrapper">
+                <h5 class="h5">Databases</h5>
+                <data value="MongoDB, SQL">MongoDB, SQL</data>
+              </div>
+        
+            </li>
+        
+            <li class="skills-item">
+        
+              <div class="title-wrapper">
+                <h5 class="h5">Tools</h5>
+                <data value="Linux, AWS Basics, Git">Linux, AWS Basics, Git</data>
+              </div>
+        
+            </li>
+        
+            <li class="skills-item">
+        
+              <div class="title-wrapper">
+                <h5 class="h5">Areas of Interest</h5>
+                <data value="MERN stack (Full Stack) Development, Data Structures">Data Structures and Algorithms, MERN stack (Full Stack) Development</data>
+              </div>
+        
+            </li>
+        
+        
+          </ul>
+        
+        </section>
+
+        <br>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">Coding Profiles </h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <a href="https://leetcode.com/karadeaditya2015/"><h5 class="h5">Leetcode</h5></a>
+
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <a href="https://auth.geeksforgeeks.org/user/karadeaditya2015/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"><h5 class="h5">GFG</h5></a>
+
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <br />
+
+
+       <section class="skill">
+
+          <h3 class="h3 skills-title">Certifications</h3>
+        
+          <ul class="skills-list content-card">
+        
+            <!-- <li class="skills-item">
+        
+              <div class="title-wrapper">
+                <div class="title-wrapper" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="913ae4a7-fae2-405a-80be-fde31b1821f6" data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+               
+              </div>
+        
+            </li>
+        
+            <li class="skills-item">
+        
+              <div class="title-wrapper">
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ef54e793-7822-4d37-b54a-7811898d477e" data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+              
+              </div>
+        
+            </li> -->
+
+            <li class="skills-item">
+        
+              <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4bb0b6e2-f1a9-47ef-8bd4-e34c0aad1fee" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                
+              <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="feec4998-74f1-4ebb-b41d-1104a9b504d6" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        
+            </li>
+
+            <li class="skills-item">
+        
+              <div class="title-wrapper">
+                
+              </div>
+        
+            </li>
+        
+          </ul>
+        
+        </section>
+
+ 
+    
+      
+                
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Projects</button>
+            </li>
+
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Web_Devlopement</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li> -->
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select style="display: none;">
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Projects</button>
+              </li>
+
+              <!-- <li class="select-item">
+                <button data-select-item>Web_Devlopement</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li> -->
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/IAMAKJOD/SIMON-GAME">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/simon_game.png" alt="Simon_game_img" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Simon Game</h3>
+                <p class="project-category">Engineered an engaging Simon game, infusing classic gameplay with modern technology for an immersive user experience. Developed using HTML, CSS, and JavaScript, the game challenges players to remember and repeat sequences of colors and sounds. With dynamic visual and auditory feedback, the game ensures an interactive and stimulating environment. Integrated features such as score tracking and difficulty levels enhance replay value, providing hours of entertainment for players of all ages.</p>
+
+                
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/IAMAKJOD/Segmentation-App">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/seg_app.png" alt="Segmentation-App-img" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Image Segmentation App</h3>
+                <p class="project-category">Crafted an innovative image segmentation application designed to seamlessly segment images provided by users. Leveraging advanced algorithms including Canny edge detection, binary thresholding, K-means clustering, grayscale conversion, and SLIC Superpixel Segmentation, the app delivers precise segmentation results. Users can effortlessly analyze and extract meaningful information from images, enhancing their ability to comprehend and manipulate visual data.</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Web_Devlopement">
+              <a href="https://github.com/IAMAKJOD/YOGA-AI">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/yoga_AI.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Yoga-AI</h3>
+
+                <p class="project-category">Designed the "Yoga-AI" platform, leveraging TensorFlow's MoveNet model for live analysis of yoga poses via user camera feeds. Engineered a user-centric website employing HTML, CSS, React.js, and Node.js, facilitating immediate feedback on pose precision and duration. Enhanced user engagement by integrating functionalities to monitor optimal performance time, resulting in a significant and meaningful enhancement to the project.</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Web_Devlopement">
+              <a href="https://github.com/IAMAKJOD/Segmentation-App">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/brainTumor.png" alt="Brain-Tumor-img" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brain Tumor Detection using ResNet</h3>
+
+                <p class="project-category">
+                  Employed ResNet50 to precisely detect and classify brain tumors in MRI scans, achieving heightened accuracy via targeted model training. Created an accessible web interface using Flask and JavaScript, enabling seamless and interactive utilization of the advanced tumor detection system. This enhancement significantly amplifies its efficacy in medical imaging, offering a valuable tool for healthcare professionals.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/IAMAKJOD/CanteenMate">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/CMS.png" alt="CMS-img" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cantenn Mate</h3>
+
+                <p class="project-category">Crafted an intuitive website revolutionizing canteen operations with streamlined processes including automated billing, customizable menus, real-time reporting, and seamless integration of payment gateways. This transformation enhances operational efficiency and customer satisfaction by providing a seamless experience for users.
+                </p>
+
+              </a>
+            </li>
+
+           
+<!-- 
+            <li class="project-item  active" data-filter-item data-category="Web_Devlopement">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web_Devlopement</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section> 
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="youtube">
+
+        <header>
+          <h2 class="h2 article-title">YouTube</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://youtu.be/s9kO9taW0zw?si=yp0Wy_WNpLu4pmDq">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/video1.png" alt="Youtube Video" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <!-- <div class="blog-meta">
+                    <p class="blog-category">Algorithm</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 15, 2023</time>
+                  </div> -->
+
+                  <h3 class="h3 blog-item-title">Introduction to Arrays and Vectors </h3>
+
+                  <p class="blog-text">
+                    Youtube Video
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://youtu.be/IfA5WjMzJEw?si=EDABum3IR2OSuS0c">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/video2.png" alt="Youtube Video" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">Arrays and Vector Code Implementation and In-built functions</h3>
+
+                  <p class="blog-text">
+                    Youtube Video
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://youtu.be/a7zBJNy3wt4?si=_y2BFxiUsM50C05N">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/video3.png" alt="Youtube Video" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">Largest Element in Array | Check if Array is Sorted in Non-decreasing order</h3>
+
+                  <p class="blog-text">
+                    Youtube Video
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="https://youtu.be/tzBaur2QLGo?si=1z9iYDC67hM1rH4A">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/video4.png" alt="Youtube Video" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">Remove Duplicates from Sorted Array</h3>
+
+                  <p class="blog-text">
+                    Youtube Video
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="https://youtu.be/U-e9WvPLqmI?si=llE3bfQcimiliVeN">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/video5.png" alt="Youtube Video" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">Rotate Array</h3>
+
+                  <p class="blog-text">
+                    Youtube Video
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="https://youtu.be/rA_rLkzE5Ek?si=IYf0C-1yrDf-1lBO">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/video6.png" alt="Youtube Video" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">Move Zeros To End | Find Union of Two Sorted Arrays</h3>
+
+                  <p class="blog-text">
+                    Youtube Video
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="https://youtu.be/SdSRzKOpn2M?si=BJ8SRmdwdH2h804C">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/video7.png" alt="Youtube Video" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">Missing Number | Maximum Consecutive Ones</h3>
+
+                  <p class="blog-text">
+                    Youtube Video
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="https://youtu.be/0kbPlMZ2Dzc?si=pfZG8eje457kLdmi">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/video8.png" alt="Youtube Video" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">Two Sum Problem</h3>
+
+                  <p class="blog-text">
+                    Youtube Video
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+<!-- 
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1512379.9321940494!2d73.71247946006441!3d18.52456410564907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf31a2b96b29%3A0xf8df6c4e6a49b74d!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1647610296865!5m2!1sen!2sin"
+            width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
